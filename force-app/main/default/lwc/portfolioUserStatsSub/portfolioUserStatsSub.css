@@ -1,0 +1,17 @@
+h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    font-size: 35px;
+    color:#0078d7;
+    font-weight: bold;  
+}
+
+img{
+    width: 100px;
+    height: auto;
+    margin-top: 15px;
+}
+

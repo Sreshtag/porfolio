@@ -1,0 +1,22 @@
+article {
+    background-color: black;
+    border: 2px #0078d7 solid;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.slds-timeline__date{
+    color: white;
+    font-weight: bold;
+
+}
+
+.slds-timeline__item_task:before {
+    background: #0078d7;
+}
+
+.slds-icon-action-new-task, .slds-icon-standard-task {
+    background-color:  #0078d7;
+    border: 0px;
+}

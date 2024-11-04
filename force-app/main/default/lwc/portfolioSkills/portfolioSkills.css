@@ -1,0 +1,11 @@
+h2 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+lightning-badge {
+    background-color: black;
+    color: #0078d7;
+    border :1px #0078d7 solid;
+    font-size: 15px;
+}

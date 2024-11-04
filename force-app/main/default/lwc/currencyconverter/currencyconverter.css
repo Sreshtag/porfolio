@@ -1,0 +1,49 @@
+.custom-card {
+    max-width: 500px;
+    min-width: 350px;
+    background-color: black;
+    border-radius: 25px;
+    padding: 30px;
+    color: white;
+    border: #0078d7 3px solid;
+    text-align: center;
+}
+.currecy-app{
+    background-image: url(sfsites/c/resource/coins);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Consolas;
+    padding: 20px;
+}
+
+.custon-button {
+    background-color: #0078d7;
+    font-size: 16px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color:#0078d7;
+}
+
+.custom-combox{
+    color:black;
+    max-height: 200px;
+}
+.custom-icon{
+--slds-c-icon-color-background:#0078d7;
+--slds-c-icon-color-foreground-default:#0078d7;
+--slds-c-icon-color-foreground:white;
+transform: rotate(45deg);
+}

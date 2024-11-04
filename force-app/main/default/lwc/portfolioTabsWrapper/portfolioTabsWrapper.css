@@ -1,0 +1,18 @@
+lightning-tabset{
+    font-family: consolas;
+}
+lightning-tab{
+    background-color: black;
+    border: 0px;
+    border-radius: 0px;
+    color: white;
+    text-align: center;
+}
+lightning-tab-bar li a {
+    color:#0078d7;
+    font-weight: bold;
+    font-weight: 20px;
+}
+.slds-icon-action-new-task {
+    background-color:  #0078d7;
+}

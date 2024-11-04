@@ -1,0 +1,32 @@
+<template>
+    <div>
+        <h2>Salesforce Certifications</h2>
+        <lightning-layout multiple-rows>
+            <template for:each={salesforceCerts} for:item="salesforcecert">
+                <lightning-layout-item key={salesforcecert} size="12" small-device-size="6" medium-device-size="4"
+                    large-device-size="4" padding="around-small">
+                    <div class="cert2">
+                        <img src={certlogo} alt="cert">
+                        <span>{salesforcecert}</span>
+                    </div>
+
+                </lightning-layout-item>
+            </template>
+        </lightning-layout>
+    </div>
+    <div>
+        <h2>Other Certifications</h2>
+        <lightning-layout multiple-rows>
+            <template for:each={otherCerts} for:item="othercert">
+                <lightning-layout-item key={salesforcecert} size="12" small-device-size="6" medium-device-size="4"
+                    large-device-size="4" padding="around-small">
+                    <div class="cert2">
+                        <lightning-icon icon-name='custom:custom45' alternative-text='custom45' size='large' title='custom45'></lightning-icon>
+                        <span>{othercert}</span>
+                    </div>
+
+                </lightning-layout-item>
+            </template>
+        </lightning-layout>
+    </div>
+</template>

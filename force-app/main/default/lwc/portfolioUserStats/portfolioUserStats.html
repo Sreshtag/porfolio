@@ -1,0 +1,18 @@
+<template>
+    <div class="wrapper">
+        <lightning-layout multiple-rows>
+            <lightning-layout-item size="12">
+                <template if:true={recordId}>
+                    <c-portfolio-user-details record-id={recordId} object-name ={objectName} ></c-portfolio-user-details>
+                </template>
+                
+            </lightning-layout-item>
+            <lightning-layout-item size="12">
+                <template if:true={rank}>
+                    <c-portfolio-user-stats-sub
+                rank={rank} badges={badges} points={points} trials={trials}></c-portfolio-user-stats-sub>
+                </template>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>

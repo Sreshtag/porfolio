@@ -1,0 +1,61 @@
+:host(){
+    --vsblue:#0078d7 ;
+    --greencolor: rgb(52, 195, 52);
+    --orangecolor:#f57b38;
+}
+.app{
+    min-height: 100vh;
+    background-image: url(/sfsites/c/resource/Fruits);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    color: white;
+    background-color: #020408;
+    max-width: 420px;
+    text-align: center;
+    margin: auto;
+    padding: 16px;
+    border: 1px var(--vsblue) solid;
+    font-family: Consolas;
+    border-radius: 38px;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color:var(--vsblue);
+}
+.info-wrapper{
+    background-color: #1a1a37;
+    border-bottom-right-radius: 38px;
+    border-bottom-left-radius: 38px;
+    padding: 16px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color:var(--vsblue);
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+}
+input {
+    color: black;
+}
+
+button{
+    background-color: var(--vsblue);
+    font-size: 16px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

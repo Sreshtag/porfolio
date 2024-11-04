@@ -1,0 +1,4 @@
+.custom-button {
+    --slds-c-button-neutral-color-background:black;  
+    --slds-c-button-neutral-color-background-hover:#0078d7;
+}

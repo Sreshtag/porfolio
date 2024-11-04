@@ -1,0 +1,29 @@
+img {
+    height: 70px;
+    width: auto;
+    margin:20px;
+}
+h2 {
+    font-size: 18px;
+    color: #0078d7;
+    font-weight: bold;
+    border :1px #0078d7 solid;
+}
+
+span{
+    font-weight: bold;
+    border: 1px white solid;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.cert2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slds-icon-custom-45, .slds-icon-custom-custom45 {
+    background-color: rgb(1, 118, 211);
+    color: black;
+    margin: 20px;
+}

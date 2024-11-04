@@ -1,0 +1,41 @@
+<template>
+    <div class="banner">
+        <div class="designation">Hello there!! Welcome to my website.. I'm</div>
+        <div class="name">{fullName}</div>
+        <div class="designation">{designation} at {comapanyName}</div>
+        <div class="location">{comapanyLocation}</div>
+        <div class="logos">
+            <template if:true={githuburl}>
+                <a href={githuburl} trget="_blank">
+                <img src={github} class="social-icon">
+                </a>
+            </template>
+            <template if:true={linkedinurl}>
+            <a href={linkedinurl} trget="_blank">
+                <img src={linkedin} class="social-icon">
+            </a>
+            </template>
+            <template if:true={bloggerurl}>
+            <a href={bloggerurl} trget="_blank">
+                <img src={blogger} class="social-icon">
+            </a>
+            </template>
+            <template if:true={youtubeurl}>
+            <a href={youtubeurl} trget="_blank">
+                <img src={youtube} class="social-icon">
+            </a>
+            </template>
+            <template if:true={trialheadurl}>
+            <a href={trialheadurl} trget="_blank">
+                <img src={trialhead} class="social-icon">
+            </a>
+            </template>
+            <template if:true={twitterurl}>
+            <a href={twitterurl} trget="_blank">
+                <img src={twitter} class="social-icon">
+            </a>
+            </template>
+        </div>
+    </div>
+
+</template>
