@@ -14,7 +14,7 @@
             <property name="badges" label="Badges" type="String"></property>
             <property name="points" label="Points" type="String"></property>
             <property name="trials" label="Trails" type="String"></property>
-            <property name="rank" label="Rank" type="String" datasource = "Ranger,Double Star Ranger"></property>
+            <property name="rank" label="Rank" type="String" datasource = "Ranger,Double star ranger"></property>
         </targetConfig>
    </targetConfigs>
 </LightningComponentBundle>
